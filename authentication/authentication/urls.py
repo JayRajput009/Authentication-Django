@@ -20,7 +20,8 @@ from django.urls import path
 from authenticationapp.views import *
 
 urlpatterns = [
-    path('',startapp),
+    path('',register),
+    path('login/',login),
     path('admin/', admin.site.urls),
     
 ]
